@@ -8,16 +8,16 @@ function Header() {
 
         <ul className="navbar-nav me-auto mb-2 mb-sm-0">
           <li className="nav-item">
-            <Link className="nav-link" to="/test1">Home</Link>
+            <Link className="nav-link" to="/test1">test1</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/test2">About</Link>
+            <Link className="nav-link" to="/test2">test2</Link>
           </li>
-          {/*<li className="nav-item">*/}
-          {/*  <Link className="nav-link" to="/test2/test3">Projects</Link>*/}
-          {/*</li>*/}
           <li className="nav-item">
-            <Link className="nav-link" to="/test4">Board</Link>
+            <Link className="nav-link" to="/test2/test3">test3</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/test4">test4</Link>
           </li>
         </ul>
 

@@ -1,16 +1,16 @@
 import { FaBeer } from '@react-icons/all-files/fa/FaBeer.js';
-import Header from './components/layout/Header.jsx';
-import Footer from './components/layout/Footer.jsx';
+import Header from './layout/Header.jsx';
+import Footer from './layout/Footer.jsx';
 import AxiosTest from './components/AxiosTest.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ErrorPage from './components/page/ErrorPage.jsx';
-import TestPage1 from './components/page/TestPage1.jsx';
-import TestPage2 from './components/page/TestPage2.jsx';
-import TestPage3 from './components/page/TestPage3.jsx';
-import TestPage4 from './components/page/TestPage4.jsx';
-import Login from './components/page/login/Login.jsx';
-import Signup from './components/page/login/Signup.jsx';
-import MainPage from './components/page/main/MainPage.jsx';
+import ErrorPage from './page/ErrorPage.jsx';
+import TestPage1 from './page/TestPage1.jsx';
+import TestPage2 from './page/TestPage2.jsx';
+import TestPage3 from './page/TestPage3.jsx';
+import TestPage4 from './page/TestPage4.jsx';
+import Login from './page/login/Login.jsx';
+import Signup from './page/login/Signup.jsx';
+import MainPage from './page/main/MainPage.jsx';
 
 function App() {
 
@@ -32,7 +32,6 @@ function App() {
           </Route>
           <Route path={'/test4'} element={<TestPage4 />} />
           <Route path={'/login'} element={<Login />} />
-          <Route path={'/signup'} element={<Signup />} />
 
           <Route path={'*'} element={<ErrorPage />} />
         </Routes>
