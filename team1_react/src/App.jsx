@@ -1,7 +1,7 @@
 import { FaBeer } from '@react-icons/all-files/fa/FaBeer.js';
-import Example from './components/kms/Example.jsx';
 import Header from './components/layout/Header.jsx';
 import Footer from './components/layout/Footer.jsx';
+import AxiosTest from './components/AxiosTest.jsx';
 
 function App() {
 
@@ -28,6 +28,13 @@ function App() {
       <div className={'container mt-5'}>
         <h1>Tailwindcss Test</h1>
         <p className={'text-5xl font-bold underline'}>tailwind</p>
+      </div>
+
+      <hr/>
+
+      <div className={'container mt-5'}>
+        <h1>Axios Test</h1>
+        <AxiosTest />
       </div>
 
       <br/><br/><br/>
